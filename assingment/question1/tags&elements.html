@@ -1,0 +1,77 @@
+<!-- tag and elements :
+    Html Tags are hold html elements i.e called html tag and elements
+    form tag : form is a tag i.e used to make a form 
+    form tag :
+    <form> </form>
+
+    form element :    
+    <input>
+    <select>
+    <textarea>
+    <option>
+    <button>        
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body bgcolor="lightgray">
+    
+    <center>
+    <h1 align="center">Register Form</h1>
+    <form>
+        <input type="file" name="photo">
+        <br><br>
+        <input type="text" name="email" placeholder="Email *" style="width: 250px; height: 20px;">
+        <br><br>
+        <input type="password" name="password" placeholder="Password *" style="width: 250px; height: 20px;">
+        <br><br>
+        <input type="text" name="fname" placeholder="FirstName *" style="width: 250px; height: 20px;">
+        <br><br>
+        <input type="text" name="lname" placeholder="LastName *" style="width: 250px; height: 20px;">
+        <br><br>
+        Male :<input type="radio" name="gender" value="male" style="width:auto; height: auto;">
+        Female :<input type="radio" name="gender" value="female" style="width:auto; height: auto;">
+        Other :<input type="radio" name="gender" value="other" style="width:auto; height: auto;">
+        <br><br>
+        Reading :<input type="checkbox" name="hobby" value="reading" style="width:auto; height: auto;">
+        Playing :<input type="checkbox" name="hobby" value="playing" style="width:auto; height: auto;">
+        Surfing :<input type="checkbox" name="hobby" value="surfing" style="width:auto; height: auto;">
+        Cooking :<input type="checkbox" name="hobby" value="cooking" style="width:auto; height: auto;">
+        <br><br>
+        <textarea name="address" placeholder="Enter Address" style="width: 250px; height: 40px;"></textarea>
+        <br><br>
+
+        <select name="country" style="width: 250px; height: 20px;">
+            <option value="">Select country</option>
+            <option value="1">India</option>
+        </select>
+        <br><br>
+        
+        <select name="state" style="width: 250px; height: 20px;">
+            <option value="">Select state</option>
+            <option value="1">Gujrat</option>
+        </select>
+        <br><br>
+        
+        <select name="country" style="width: 250px; height: 20px;">
+            <option value="">Select city</option>
+            <option value="1">Rajkot</option>
+        </select>
+        <br><br>
+
+        <button type="submit" name="register" style="width: 100px; height: 30px; background-color: greenyellow; border: none;">Register</button>
+
+        <button type="reset" name="reset" style="width: 100px; height: 30px; background-color: red; border: none;">Reset</button>
+
+    </form>
+    </center>
+</body>
+</html>
