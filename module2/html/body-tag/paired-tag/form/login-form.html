@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            background-color: lightgray;
+        }
+        h1 
+        {
+            text-align: center;
+            font-size: 48px;
+            font-family: myfont;
+        }
+        hr 
+        {
+            border: solid 2px white;
+            width: 50%;
+        }
+        input 
+        {
+            width: 400px;
+            height: auto;
+            margin: auto;
+            margin-left: 10%;
+            padding: 15px;
+            border: none;
+            border-bottom: solid 2px black;
+           
+        }
+        input[type="submit"]
+        {
+            width: 200px;
+            height: auto;
+            margin: auto;
+            margin-left: 10%;
+            padding: 15px;
+            border: none;
+            background-color: black;
+            color: white;
+        }
+        @font-face {
+            font-family: myfont;
+            src: url('fonts/Vtks\ Revolt.ttf');
+        }
+   
+    </style>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <hr>
+    <form>
+        <input type="text" name="email" placeholder="Email *" required>
+        <br><br>
+        <input type="password" name="passsword" placeholder="Password *" required>
+        <br><br>
+        <input type="submit" name="login" value="Login">
+        <b><a href="#">Forget Password ?</a></b>
+        <br><br>
+        <b style="font-size: 20px; margin-left: 10%;">Don't have an Account ?<a href="register.html">Create account</a></b>
+        <br><br>
+    </form>
+    
+
+
+
+</body>
+</html>
