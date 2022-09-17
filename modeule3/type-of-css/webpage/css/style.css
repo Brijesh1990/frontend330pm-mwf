@@ -1,0 +1,53 @@
+
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        background-color: #ebeff5;
+    }
+    .header 
+    {
+        width: 100%;
+        height: 65px;
+        background-color: #3672d1;
+        position: sticky;
+        top: 0;
+    }
+    .nav,
+    .navbar
+    {
+        width: 100%;
+        height: 120px;
+        background-color: white;
+    }
+
+    .slider 
+    {
+        width: 96%;
+        height: 320px;
+        margin: auto;
+        background-color: wheat;
+        margin-top: 2%;
+    }
+    .content 
+    {
+        width: 98%;
+        margin-top: 2%;
+        height: auto;
+        margin: auto;
+    }
+    .products-items
+    {
+        width: 100%;
+        height: 250px;
+        margin-top: 2%;
+        background-color: white;
+    }
+
+    .footer 
+    {
+        width: 100%;
+        height: 350px;
+        background-color: #041021;
+        margin-top: 2%;
+    }
