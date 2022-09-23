@@ -43,22 +43,62 @@
                 <li><a href="events.html">events</a></li>
                 <li><a href="chefs.html">chefs</a></li>
                 <li><a href="gallery.html">gallery</a></li>
+                <li><a href="">dropdown</a></li>
                 <li><a href="contact.html">contact</a></li>
                 <li><a href="booking.html" id="book">book a table</a></li>
             </ul>
         </div>
     </div>
-    <!-- patel slider start here -->
-    <div class="patel-slider">
-        <div class="slider-content">
-            <h1>Welcome to Restaurantly</h1>
-            <p>Delivering great food for more than 18 years</p>
+    <!-- patel content start here-->
+    <div class="patel-content">
+        <div class="booking-content">
+            <h1>Contact with us</h1>
+            <p>fill form to contact with us</p>
             <p><button type="button" id="btn">Our menu</button>
             <button type="button" id="btn1">book a table</button>
             </p>
         </div>
-        <div class="slider-video">
-           <a href="https://www.youtube.com/watch?v=shzZRGHTNP0" target="_blank"><span class="fa fa-play"></span></a>
+        <div class="booking-form">
+
+            <form method="post">
+                <table class="booking">
+                    <tr>
+                        <td><input type="text" name="fname" placeholder="Enter FirstName *" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="lname" placeholder="Enter LasttName *" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="email" placeholder="Enter Email *" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text" name="mobile" placeholder="Enter Mobile *" required></td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="address" placeholder="Enter your Home Address *"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><select name="city" placeholder="Enter your city *">
+                            <option value="">-select city-</option>
+                            <option value="">Rajkot</option>
+                            <option value="">Ahemdabad</option>
+                        </select></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" name="book" placeholder="Enter Mobile *" value="Book Here!" id="book-table">
+                            <input type="reset" name="reset" placeholder="Enter Mobile *" value="Reset Booking!" id="reset-booking">
+                        </td>
+                    </tr>
+                    
+                </table>
+            </form>
+
+
         </div>
     </div>
     </section>

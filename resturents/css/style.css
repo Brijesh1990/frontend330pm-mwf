@@ -4,14 +4,14 @@ body
     padding: 0;
     overflow-x: hidden;
     background: url('../images/hero-bg.jpg') no-repeat;
-    background-size: 100% 645px;
+    background-size: 100% 800px;
    
   
 }
 .main-section
 {
     width: 100%;
-    height: 645px;
+    height: 800px;
     background-color: rgba(5,0,0,0.5);
 }
 .patel-header
@@ -74,12 +74,19 @@ color: white;
     float: left;
     margin-top: 1.5%;
 }
-.logo b 
+.logo b
 {
     font-size: 25px;
     font-weight: 200;
     margin-top: 8% !important;
     margin-left: 18%;
+    color: white !important;
+}
+.logo a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .navbar 
@@ -157,9 +164,11 @@ color: white;
     color: white;
     font-size: 25px;
     margin-top: 15%;
-    animation: fadeIn 4s alternate;
-   
-    
+    animation: fadeIn 4s alternate; 
+}
+.slider-video a 
+{
+    color: red !important;
 }
 .fa-play
 {
@@ -171,3 +180,124 @@ color: white;
     border: solid 15px #f5e57f;
     animation: flash 2s infinite;
 }
+
+.patel-content
+{
+    width: 100%;
+    height: auto;
+
+}
+
+.booking-content
+{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 35px;
+    color: white;
+    line-height: 12px;
+    text-transform: capitalize;
+    animation: fadeIn 4s alternate;
+}
+.booking-form
+{
+    width: 35%;
+    height: auto;
+    float: left;
+    color: white;
+    font-size: 25px;
+    margin-top: 5%;
+    animation: fadeIn 4s alternate;
+   
+}
+
+input[type="text"],textarea
+{
+    width: 450px;
+    height: auto;
+    background-color: white;
+    border: none;
+    margin: auto;
+    margin-top: 1%;
+    padding: 10px;
+}
+select
+{
+    width: 470px;
+    height: auto;
+    background-color: white;
+    border: none;
+    margin: auto;
+    margin-top: 1%;
+    padding: 10px;
+}
+#book-table
+{
+    width: 230px;
+    height: auto;
+    border: solid 1px goldenrod;
+    padding: 12px;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 5px;
+    margin-top: 5%; 
+}
+#reset-booking
+{
+    width: 230px;
+    height: auto;
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 5%; 
+}
+.booking-content
+{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+    text-transform: capitalize;
+    animation: fadeIn 4s alternate;
+}
+.patel-content hr 
+{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    border: solid 2px white;
+}
+.chef-details
+{
+    width: 30%;
+    height: 450px;
+    background-color: rgba(5,0,0,0.5);
+    margin: 5px;
+    margin-left: 2%;
+    transition: 2s ease all;
+    float: left;
+    color: white;
+}
+.patel-content h1 
+{
+    font-size: 45px;
+    color: white;
+}
+.chef-details:hover 
+{
+    background-color: white !important;
+    color: black;
+}
+.chef-details img 
+{
+    width: 100%;
+    height: 200px;
+}
+
