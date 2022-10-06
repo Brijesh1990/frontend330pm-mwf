@@ -1,7 +1,7 @@
 var myLoader;
 function Mydata()
 {
-    myLoader=setTimeout('shw()',1000);
+    myLoader=setTimeout('shw()',2000);
 }
 function shw()
 {
