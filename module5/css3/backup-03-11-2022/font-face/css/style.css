@@ -1,0 +1,24 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.content 
+{
+    width: 70%;
+    height: auto;
+    padding: 15px;
+    background-color: yellowgreen;
+    margin: auto;
+    font-family: myfont;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+/* css3 font face */
+
+@font-face 
+{
+    src: url('../fonts/Alatas\ Script.ttf');
+    font-family: myfont;
+}

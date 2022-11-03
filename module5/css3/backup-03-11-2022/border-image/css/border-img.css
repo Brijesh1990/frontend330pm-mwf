@@ -1,0 +1,60 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: aquamarine;
+}
+.para 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    border: 15px solid transparent;
+    padding: 15px;
+    -o-border-image: url('../images/border1.png') round 30;
+    -moz-border-image: url('../images/border1.png') round 30;
+    border-image: url('../images/border1.png') round 30;
+}
+
+.para1 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    border: 15px solid transparent;
+    padding: 15px;
+    -o-border-image: url('../images/border.png') round 30;
+    -moz-border-image: url('../images/border.png') round 30;
+    border-image: url('../images/border.png') round 30;
+}
+
+
+.para2 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    border: 15px solid transparent;
+    padding: 15px;
+    -o-border-image: url('../images/border2.jpg') round 30;
+    -moz-border-image: url('../images/border2.jpg') round 30;
+    border-image: url('../images/border2.jpg') round 30;
+}
+
+
+.para3 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    border: 15px solid transparent;
+    padding: 15px;
+    -o-border-image: url('../images/border3.jpg') round 30;
+    -moz-border-image: url('../images/border3.jpg') round 30;
+    border-image: url('../images/border3.jpg') round 30;
+}
