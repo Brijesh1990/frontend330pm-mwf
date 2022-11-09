@@ -1,0 +1,38 @@
+body 
+{
+    background: -webkit-linear-gradient(left,black, white);
+    background: -webkit-o-gradient(left,black, white);
+    background: -webkit-moz-gradient(left,black, white);
+    background: linear-gradient(to right,black, white);
+    
+    -webkit-animation: infinite 5s myanimation;
+    -moz-animation: infinite 5s myanimation;
+    -o-animation: infinite 5s myanimation;
+    animation: infinite 5s myanimation;
+}
+
+/* add animation */
+
+@keyframes myanimation {
+
+    from 
+    {
+        top: 0;
+        left: 0;
+        background: -webkit-linear-gradient(left,red, white);
+        background: -webkit-o-gradient(left,red, white);
+        background: -webkit-moz-gradient(left,red, white);
+        background: linear-gradient(to right,red, white);
+    }
+
+    to 
+    {
+        top: 0;
+        left: 0;
+        background: -webkit-linear-gradient(left,blue, white);
+        background: -webkit-o-gradient(left,blue, white);
+        background: -webkit-moz-gradient(left,blue, white);
+        background: linear-gradient(to right,blue, white);
+    }
+    
+}

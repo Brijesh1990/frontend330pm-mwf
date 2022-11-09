@@ -1,0 +1,79 @@
+body 
+{
+    background: -webkit-linear-gradient(left,black, white);
+    background: -webkit-o-gradient(left,black, white);
+    background: -webkit-moz-gradient(left,black, white);
+    background: linear-gradient(to right,black, white);
+    
+    -webkit-animation: infinite 5s myanimation;
+    -moz-animation: infinite 5s myanimation;
+    -o-animation: infinite 5s myanimation;
+    animation: infinite 5s myanimation;
+    animation-delay:5s;
+}
+
+/* add animation */
+
+@keyframes myanimation {
+
+    0% 
+    {
+        top: 0;
+        left: 0;
+        background: -webkit-linear-gradient(left,red, white);
+        background: -webkit-o-gradient(left,red, white);
+        background: -webkit-moz-gradient(left,red, white);
+        background: linear-gradient(to right,red, white);
+    }
+
+    20% 
+    {
+        top: 0;
+        left: 0;
+        background: -webkit-linear-gradient(left,aqua, white);
+        background: -webkit-o-gradient(left,aqua, white);
+        background: -webkit-moz-gradient(left,aqua, white);
+        background: linear-gradient(to right,aqua, white);
+    }
+    40%
+     
+    {
+        top: 0;
+        left: 0;
+        background: -webkit-linear-gradient(left,orange, white);
+        background: -webkit-o-gradient(left,orange, white);
+        background: -webkit-moz-gradient(left,orange, white);
+        background: linear-gradient(to right,orange, white);
+    }
+
+    60% 
+    {
+        top: 0;
+        left: 0;
+        background: -webkit-linear-gradient(left,pink, white);
+        background: -webkit-o-gradient(left,pink, white);
+        background: -webkit-moz-gradient(left,pink, white);
+        background: linear-gradient(to right,pink, white);
+    }
+
+    80% 
+    {
+        top: 0;
+        left: 0;
+        background: -webkit-linear-gradient(left,yellow, white);
+        background: -webkit-o-gradient(left,yellow, white);
+        background: -webkit-moz-gradient(left,yellow, white);
+        background: linear-gradient(to right,yellow, white);
+    }
+
+    100% 
+    {
+        top: 0;
+        left: 0;
+        background: -webkit-linear-gradient(left,brown, white);
+        background: -webkit-o-gradient(left,brown, white);
+        background: -webkit-moz-gradient(left,brown, white);
+        background: linear-gradient(to right,brown, white);
+    }
+    
+}
