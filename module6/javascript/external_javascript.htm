@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='js/cart.js'></script>
+    <script>
+      
+      
+    </script> 
+</head>
+<body onload="test()">
+    <div id="content">
+        <h1>ViewCart(1)</h1>
+        <hr style="width: 30%; border: solid 1px gray;" align="left">
+        <table align="center" width="100%">
+            <tr>
+            <th>#</th>
+            <th>Pname</th>
+            <th>Image</th>
+            <th>select qty</th>
+            <th>Price</th>
+            <th>Action</th>
+            </tr>
+            <tr align="center">
+                <td>1001</td>
+                <td>Samsung guru</td>
+                <td><img src="https://rukminim1.flixcart.com/image/416/416/kx9as280/mobile/w/d/m/guru-1200-gt-e1215zkains-samsung-original-imag9rbacapgffzg.jpeg?q=70" width="85px" height="95px"></td>
+                <td><input type="number" id="qty" min="1" max="10" value="1" onchange="crt()"></td>
+                <td><input type="text" readonly style="border: none; width: 40px;" name="price" id="price" value="1250"></td>
+                <td><a href="#">Delete</a></td>
+            </tr>
+
+            <tr>
+                <td colspan="6" align="right"><h2 style="background-color: ;background-color:black; color:white; padding:35px; width:40%">Subtotal of Products is Rs. <label id="tot">1250</label></h2></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
