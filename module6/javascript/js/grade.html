@@ -1,0 +1,45 @@
+<script>
+    function gr()
+    {
+    var grade=document.getElementById("grade").value;    
+    switch(grade)
+    {
+        case 'A':
+            //document.write("You are Topper students &#9786");
+            document.getElementById("demo").innerHTML="You are Topper students &#9786";
+            break;
+            
+        case 'B':
+              //document.write("You are Average students &#9786");
+              document.getElementById("demo").innerHTML="You are Average students &#9786";
+
+              break;
+            
+        case 'C':
+        //document.write("You are Failed  students &#9785");
+        document.getElementById("demo").innerHTML="You are Failed students &#9785";
+
+            break;
+
+        default: 
+        //document.write("Your grade is not found contact with admin");
+        document.getElementById("demo").innerHTML="Your grade is not found anywhere";
+        break;
+    }
+}
+</script>
+
+<html>
+    <body>
+
+        <p id="demo"></p>
+        <center>
+        <form>
+            <label>Enter Your Grade :</label>
+            <input type="text" name="grade" placeholder="Enter Your grade" id="grade" required>
+            <br><br>
+            <button type="button" onclick="gr()">Check Grade</button>
+        </form>
+    </center>
+    </body>
+</html>
