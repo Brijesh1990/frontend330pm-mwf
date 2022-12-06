@@ -7,9 +7,10 @@
     <title>Calculator</title>
     <style>
         table{
+			width: 30% !important;
 			padding: 20px;
 			border-collapse: all;
-			margin-top: 100px;
+			margin-top: auto;
 			background: black;
 			
 		}
@@ -24,13 +25,15 @@
 			width: 50px;
 			vertical-align: center;
 		}
-        #ans{
+        #result{
 			color: white;
 			background-color: black;
 			height: 25px;
 			width: 95%;
 		}
         .btn{
+			width: 80px;
+			height: auto;
             color: white;
             background-color: black;
         }
@@ -40,51 +43,53 @@
         }
         
     </style>
+
+	<script src="js/calc.js"></script>
 </head>
 <body>
     <h2>Calculator</h2>
     <table align="center">
 		<tr>
 			<td colspan="6">
-				<input type="text" name="" Id="ans" placeholder="0">
+				<input type="text" name="" id="result" placeholder="0">
 			</td>
 			
 		</tr>
         <tr>
-			<td><input type="button" class="btn"  value="%"></td>
-			<td><input type="button" class="btn"  value="CE"></td>
-			<td><input type="button" class="btn"  value="C"></td>
-			<td><input type="button" class="btn"  value="<-"></td>
+			<td><input type="button" class="btn"  value="%" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="CE" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="C" onclick="clr()"></td>
+			<td><input type="button" class="btn"  value="<-" onclick="return display(this.value)"></td>
 		</tr>
         <tr>
-			<td><input type="button" class="btn"  value="1/x"></td>
-			<td><input type="button" class="btn"  value="x^2"></td>
-			<td><input type="button" class="btn"  value="x^-2"></td>
-			<td><input type="button" class="btn"  value="="></td>
+			<td><input type="button" class="btn"  value="1/x" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="x^2" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="x^-2" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="=" onclick="return result(this.value)"></td>
 		</tr>
 		<tr>
-			<td><input type="button" class="btn"  value="7"></td>
-			<td><input type="button" class="btn"  value="8"></td>
-			<td><input type="button" class="btn"  value="9"></td>
-			<td><input type="button" class="btn"  value="/"></td>
+			<td><input type="button" class="btn"  value="7" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="8" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="9" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="/" onclick="return display(this.value)"></td>
 		</tr>
 		<tr>
-			<td><input type="button" class="btn"  value="4"></td>
-			<td><input type="button" class="btn"  value="5"></td>
-			<td><input type="button" class="btn"  value="6"></td>
-			<td><input type="button" class="btn"  value="*"></td>
+			<td><input type="button" class="btn"  value="4" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="5" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="6" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="*" onclick="return display(this.value)"></td>
 		</tr>
 		<tr>
-			<td><input type="button" class="btn"  value="1"></td>
-			<td><input type="button" class="btn"  value="2"></td>
-			<td><input type="button" class="btn"  value="3"></td>
-			<td><input type="button" class="btn"  value="+"></td>
+			<td><input type="button" class="btn"  value="1" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="2" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="3" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="+" onclick="return display(this.value)"></td>
 		</tr>
 		<tr>
-			<td><input type="button" class="btn"  value="."></td>
-			<td><input type="button" class="btn"  value="0"></td>
-			<td><input type="button" class="btn"  value="+/-"></td>
-			<td><input type="button" class="btn" value="-"></td>
+			<td><input type="button" class="btn"  value="." onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="0" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn"  value="+/-" onclick="return display(this.value)"></td>
+			<td><input type="button" class="btn" value="-" onclick="return display(this.value)"></td>
 		</tr>
 	</table>
 </body>
