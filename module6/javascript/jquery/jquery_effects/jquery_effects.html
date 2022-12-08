@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.1.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("body").css({"background-color":"lightgray"});
+            $(".container").css({"background-color":"wihite","border":"none","margin-left":"0","padding":"5px","width":"50%","height":"auto","margin-left":"25%","border":"solid 5px blue"})
+
+            $(".container p").css({"background-color":"wihite","border":"none","margin-left":"0","padding":"5px","width":"80%","height":"auto","margin-left":"10%","border":"dashed 2px black"})
+
+            $("button").css({"width":"15%","height":"auto","margin":"auto","background-color":"black","margin-left":"15%","color":"white"});
+
+            $("#btn").click(function(){
+
+                $(".container").hide(4000);
+            })
+            $("#btn1").click(function(){
+
+            $(".container").show(4000);
+           });
+
+           $("#btn2").click(function(){
+
+           $(".container").toggle(4000);
+         })
+
+
+        })
+    </script>
+</head>
+<body>
+
+    <div class="container">
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate a, delectus accusamus, excepturi enim eius reiciendis tempore ipsa velit explicabo est, voluptatem molestiae natus vitae incidunt iure repellendus aut.</p>
+    </div>
+    
+    <button type="button" id="btn">Click for Hide</button>
+    <button type="button" id="btn1">Click for Show</button>
+    <button type="button" id="btn2">Click for Toggle</button>
+
+
+</body>
+</html>

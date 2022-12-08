@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.1.min.js'></script>
+    <script>
+        $(document).ready(function(){
+
+            $("div").addClass("content");
+        })
+    </script>
+
+    <style>
+        .content 
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            background-color: yellowgreen;
+            padding: 5px;
+            font-size: 20px;
+            padding: 8px;
+            margin-top: 2%;
+        }
+        .content p::after 
+        {
+            content:"a singer from united state of america";
+        }
+
+        .content b::before 
+        {
+            content:"historical victory in Gujrat of BJP";
+        }
+    </style>
+</head>
+<body>
+
+    <div><p>Justin beber is </p></div>
+
+    <div><b>app is not perform well in GUjarat </b></div>
+    
+</body>
+</html>
