@@ -1,0 +1,30 @@
+@import url('font-face.css');
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.content 
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    background-color: lightgray;
+    padding: 25px;
+    margin-top: 5%;
+}
+
+.content h1 
+{
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: sneha-fonts;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.content p 
+{
+    font-family: sneha-fonts;
+}

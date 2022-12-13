@@ -1,0 +1,24 @@
+/* em : stands for emphasized 
+1px=1/16em;
+em width and height layout is called elastic layout 
+a) fixed layout : width : 1024px;
+b) elastic layout : width: 64em;
+c) fluid layout : width : 100%;  
+*/
+
+body 
+{
+    margin: 0em;
+    padding: 0em;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.content 
+{
+    /* width: 1024px;
+    height: 768px; */
+    width: 64em;
+    height: 48em;
+    background-color: aquamarine;
+}
