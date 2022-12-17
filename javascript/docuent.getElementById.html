@@ -9,9 +9,13 @@
     <script src='main.js'></script>
 </head>
 <body>
-
+    <p id="para">Hi</p>
+    <button type="button" onclick="test()">click Me</button>
     <script>
-        hi i am brijesh
+        function test()
+        {
+            document.getElementById("para").style="color:red;transition:2s ease all; font-size:35px";
+        }
     </script>
     
 </body>
