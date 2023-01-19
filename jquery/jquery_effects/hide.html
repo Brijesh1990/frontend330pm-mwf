@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.3.min.js'></script>
+
+    <script>
+$(document).ready(function(){
+$("#btn").hover(function(){
+
+$("#para").hide(4000);
+
+});
+
+$("#btn1").hover(function(){
+
+$("#para").show(4000);
+
+});
+
+$("#btn2").hover(function(){
+
+$("#para").toggle(4000);
+
+});
+})
+    </script>
+</head>
+<body>
+    <button type="button" id="btn">Hide Paragraph</button>
+    <button type="button" id="btn1">show Paragraph</button>
+    <button type="button" id="btn2">Toggle Paragraph</button>
+    <p id="para">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci non sit totam temporibus voluptas dolor eum, minus esse. Cum, tempore recusandae possimus accusamus laboriosam consequuntur itaque aut quod necessitatibus quo.</p>
+</body>
+</html>

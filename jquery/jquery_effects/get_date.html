@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.3.min.js'></script>
+
+    <script>
+$(document).ready(function(){
+$("#btn").click(function(){
+// var today=new Date(); //local date and time
+
+// var today=new Date().getFullYear();
+// var today=new Date().getDay();
+// var today=new Date().toLocaleDateString();
+// var today=new Date().toLocaleTimeString();
+// var today=new Date().toTimeString();
+
+// var today=new Date().getTimezoneOffset();
+
+// var today=new Date().toTimeString();
+var today=new Date().toLocaleTimeString();
+// document.write(today);
+document.getElementById("para").innerHTML=today;
+$("#para").toggle(4000);
+
+});
+
+})
+    </script>
+
+<style>
+    #main
+    {
+        width: 50%;
+        height: auto;
+        padding: 15px;
+        margin: auto;
+        box-shadow: 2px 2px 2px 2px lightgray;
+    }
+    #btn 
+    {
+        width: 50%;
+        height: auto;
+        background-color: green;
+        border: none;
+        padding: 15px;
+        color: white;
+        margin-left: 25%;
+    }
+    #para 
+    {
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        display: none;
+    }
+</style>    
+</head>
+<body>
+
+    <div id="main">
+            <button type="button" id="btn">Get Crrent systems Date ></button>
+            <p id="para"></p>
+
+    </div>
+</body>
+</html>
