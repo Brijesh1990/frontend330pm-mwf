@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+
+<style>
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        background-color: lightblue;
+    }
+    #sect 
+    {
+        width: 25%;
+        height: auto;
+        background-color: white;
+        padding: 25px;
+        margin-top: 6%;
+        margin-left: 15%;
+        position: absolute;
+    }
+
+    #btn,#btn1 
+    {
+        width: 25%;
+        height: auto;
+        background-color: red;
+        color: white;
+        padding: 8px;
+        color: white;
+        border: none;
+        margin-left: 15%;
+        margin-top: 2%;
+        position: relative;
+    }
+</style>
+
+</head>
+<body>
+
+    <div id="sect">
+        <h1>Contact with Us</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est facilis quasi natus. Ad laboriosam cumque tenetur temporibus officiis, earum eum, ex natus dolorem ratione tempora ipsum fuga? Vel, veritatis doloribus?</p>
+    </div>
+
+    <button type="button" id="btn">Animate</button>
+    <button type="button" id="btn1">Stop Animation</button>
+    
+
+    <script src='js/jquery.js'></script>
+    <script type="text/javascript">
+
+     $(document).ready(function(){
+        // $("div").addClass("content content-data");
+
+        $("#btn").click(function()
+        {
+            $("#sect").animate({
+                width:'350px',
+                height:'auto',
+                left:'350px',
+                fontSize:'22px'},5000);
+        });
+
+
+
+        $("#btn1").click(function()
+        {
+            $("#sect").stop();
+        });
+
+     });
+    </script>
+</body>
+</html>
