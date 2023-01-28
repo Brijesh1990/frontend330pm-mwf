@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.3.min.js'></script>
+    <script src='https://malsup.github.io/jquery.cycle.all.js'></script>
+    <script>
+        $(document).ready(function(){
+            $(".slider").cycle("fade");
+        })
+    </script>
+    <style>
+
+        body 
+        {
+            background-color: lightgray;
+        }
+        h1 
+        {
+            text-align: center;
+            font-size: 68px;
+            font-family: myfont;
+            letter-spacing: 8px;
+        }
+        hr 
+        {
+            border: solid 2px black;
+            width: 50%;
+        }
+        iframe 
+        {
+            width: 40%;
+            height: 750px;
+            margin: auto;
+            margin-left: 5%;
+        }
+        @font-face {
+            font-family: myfont;
+            src: url('fonts/Vtks\ Revolt.ttf');
+        }
+        .slider 
+        {
+            width: 70%;
+            height: 250px !important;
+            margin-left: 15% !important;
+        }
+        .slider img 
+        {
+            width: 100% !important;
+            height: 250px !important;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create Your Account</h1>
+    <hr>
+    <!-- slider applied here -->
+    <div class="slider">
+        <img src="https://images.pexels.com/photos/15186505/pexels-photo-15186505.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+
+        
+        <img src="https://images.pexels.com/photos/1374067/pexels-photo-1374067.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+
+        
+        <img src="https://images.pexels.com/photos/5644294/pexels-photo-5644294.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+    </div>
+    <br>
+    <iframe src="google-map.html" frameborder="0"></iframe>
+    <iframe src="login-form.html" frameborder="0"></iframe>
+    
+</body>
+</html>
