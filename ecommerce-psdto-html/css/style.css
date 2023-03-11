@@ -209,6 +209,39 @@ color: white !important;
     background-color: transparent !important;
     margin-top: 0% !important;
 }
+
+.footer 
+{
+    width: 100%;
+    height: auto;
+    background-color: #1d1d1d !important;
+}
+.subscribe-btn 
+{
+    background-color: #e13ed7 !important;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: none;
+    color: white !important;
+}
+.bi-facebook,.bi-twitter,.bi-whatsapp,.bi-instagram,.bi-youtube
+{
+    font-size: 22px;
+    letter-spacing: 8px;
+    color: #919191;
+}
+.footer-link li 
+{
+text-decoration: none;
+list-style-type: none;
+}
+.footer-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
 @media only screen and (min-width:320px) and (max-width:480px)
 {
     .search-box input 
@@ -238,5 +271,15 @@ color: white !important;
     width: 100%;
     height: 200px;
 }
-
+.slider 
+{
+    width: 100% !important;
+    height: auto !important;
+    border: solid 0px black !important;
+}
+.slider img 
+{
+    min-width: 180% !important;
+    height: 100px !important;
+}
 }
